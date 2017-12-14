@@ -1,0 +1,145 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url('../img/1.jpeg');
+    background-size: cover;
+
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.price-plan {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 40px;
+    
+
+}
+
+.price {
+    width: 20%;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0 0 10px gray;
+    background: white;
+    opacity: 0.8;
+    
+}
+
+.price-plan .price h4 {
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 500;
+ margin-left: 25px;
+    margin-top: 30px;
+}
+
+.price-plan .price h1 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 70px;
+}
+
+.price h1:after {
+    content: '/ month';
+    font-weight: 300;
+
+}
+
+.price p {
+    color: gray;
+    font-size: 15px;
+    text-align: left;
+    line-height: 1.7;
+    margin-left: 25px;
+    margin-top: 30px;
+
+}
+
+.price .h-line {
+    z-index: 1;
+    width: 80%;
+    border-bottom: 1px dashed grey;
+    margin-left: 28px;
+    margin-top: 30px;
+}
+
+.list {
+    font-size: 15px;
+    line-height: 2;
+      margin-left: 28px;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+
+li:before {
+    content: '\f00c';
+    font-family: 'FontAwesome';
+    color: #8aa84e;
+margin-right: 10px;
+}
+.price-plan .price .button{
+    border: 1px solid #eb2300;
+    background: #eb2300;
+    border-radius: 27px;
+    width: 55%;
+    padding: 15px;
+    text-align: center;
+    margin-left: 45px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.button:hover{
+    cursor: pointer;
+    user-select: none;
+   transform: scale(1.1);
+}
+.button:active{
+    box-shadow: 3px 3px 3px 3px 10px #bf1d00;
+    transform: translate(1px);
+}
+.fa-caret-square-o-up{
+    font-size: 35px;
+    color: #eb2300;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.fa-caret-square-o-up:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    user-select: none;
+}
+h4:hover{
+    color: #bf1d00;
+}
+h1:hover{
+    color: #bf1d00;
+}
+p:hover{
+    color: #bf1d00;
+}
+li:hover{
+    color: #bf1d00;
+}
+.price:active{
+    opacity: 1;
+}
